@@ -1,0 +1,43 @@
+{
+    "coord": {
+    "lon": 85.1167,
+    "lat": 25.6
+    },
+    "weather": [
+    {
+    "id": 721,
+    "main": "Haze",
+    "description": "haze",
+    "icon": "50d"
+    }
+    ],
+    "base": "stations",
+    "main": {
+    "temp": 302.11,
+    "feels_like": 301.63,
+    "temp_min": 302.11,
+    "temp_max": 302.11,
+    "pressure": 1012,
+    "humidity": 39
+    },
+    "visibility": 4000,
+    "wind": {
+    "speed": 2.06,
+    "deg": 180
+    },
+    "clouds": {
+    "all": 0
+    },
+    "dt": 1676099628,
+    "sys": {
+    "type": 1,
+    "id": 9129,
+    "country": "IN",
+    "sunrise": 1676077072,
+    "sunset": 1676117389
+    },
+    "timezone": 19800,
+    "id": 1260086,
+    "name": "Patna",
+    "cod": 200
+    }
