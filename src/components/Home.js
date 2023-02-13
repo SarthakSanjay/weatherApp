@@ -56,8 +56,8 @@ const Home = () => {
       
        <>
        <h1 className='temp'>{data.main.temp}<sup>°C</sup></h1>
-        <h2>Max {data.main.temp_max}</h2>
-        <h2>Min {data.main.temp_min} </h2>
+        <h2>Max {data.main.temp_max}<sup>°C</sup></h2>
+        <h2>Min {data.main.temp_min}<sup>°C</sup> </h2>
         <h3>wind speed {data.wind.speed}</h3>
        </>
       
@@ -130,5 +130,8 @@ height:80vh;
 width:75vw;
 border: 2px solid skyblue;
 text-align: center;
+img{
+  width:250px
+}
 `
 export default Home
